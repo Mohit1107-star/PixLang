@@ -4,12 +4,16 @@ PixelPilot is a C++ image processing engine powered by a custom DSL (domain-spec
 
 ## 🚀 Features
 
-- 🖼 Load and save JPG/PNG images using `stb_image`
-- 🧠 Define image filters using your own DSL file: grayscale,blur 5,sharpen 2
-- 🧱 Apply grayscale, blur, and sharpen filters on CPU
-- 📜 Custom DSL parser to dynamically build filter pipelines
-- ⚙️ CMake-based build system
-- 🔥 Future roadmap: DSL → auto-generate GLSL shaders and run on GPU
+## 🛠️ Features
+
+- ✅ CPU-based image processing pipeline (`image_pipeline/`)
+  - Uses `stb_image` for loading and saving images.
+  - Supports basic filters like grayscale, blur, and sharpen on CPU.
+  
+- ⚡ GPU-accelerated processing pipeline (`pixel_plot/`)
+  - Uses **OpenGL** + **GLFW** + **GLAD**.
+  - Parses a custom `.dsl` file and generates GLSL shaders on the fly.
+  - Realtime shader effects on textures.
 
 
 ## 💻 Getting Started
@@ -49,12 +53,19 @@ Check the result:
 📖 License MIT — free to use, remix, and build on.
 
 ---
-Let me know if you want this:
-- Saved as a file you can copy-paste
-- With a specific GitHub repo link filled in
-- Or if you want to add install instructions for Homebrew/dependencies
+🌟 Future Work
 
-And just say the word when you're ready to jump to the **OpenGL shader step**!
+- Implement real blur and sharpen kernels in GLSL.
+- Add more DSL commands like brightness, contrast, invert.
+- Live reload of DSL during runtime.
+- GUI frontend to select filters.
+
+📸 Credits
+
+- Shinchan sample image generated via AI.
+- Inspired by real-time image editors and shader playgrounds.
+
+🧑‍💻 Author : Made with ❤️ by Mohit Assudani
 
 
 
