@@ -1,0 +1,3 @@
+/Users/mohitassudani/Desktop/Cpp-Project/image_pipeline/build/CMakeFiles/ImagePipeline.dir
+/Users/mohitassudani/Desktop/Cpp-Project/image_pipeline/build/CMakeFiles/edit_cache.dir
+/Users/mohitassudani/Desktop/Cpp-Project/image_pipeline/build/CMakeFiles/rebuild_cache.dir
