@@ -1,5 +1,18 @@
+# Ignore build output
 /build/
-/*.exe
 *.o
+*.obj
 *.out
+*.exe
+*.app
+*.log
 *.DS_Store
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Generated shaders (optional)
+shaders/generated.frag
